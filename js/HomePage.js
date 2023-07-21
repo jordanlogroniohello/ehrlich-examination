@@ -102,7 +102,7 @@ function itemTemplate(item) {
             </div>
             <div class="section-price"> 
                 ${price}
-                <span class="add-to-cart-btn" onclick="addToCart(${item.id})"> Add </span> 
+                <span class="add-to-cart-btn" onclick="addToCart(${item.id})"> Buy </span> 
             </div>
         </div>
     `;
