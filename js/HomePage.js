@@ -128,6 +128,8 @@ function addToCart(id) {
     cart.push(product);
   }
 
+  overviewContainer.innerHTML = cartOverview();
+
   localStorage.setItem('cart', JSON.stringify(cart));
   badge.innerHTML = sumAddToCart(cart);
   badge.classList.remove('d-none');
