@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ehrlich Examination</title>
+</head>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+<link rel="stylesheet" href="css/main.css">
+
+<body>
+
+    <nav class="nav" id="nav">	</nav>
+
+	<div class="panel">
+		<div class="panel-list">
+			<img src = "img/panel/bx-bx-crown.svg" alt="Crown"/>
+			<span class="panel-span"> Exclusive Deals for VIP 2 and up! </span>
+		</div>
+		<div class="panel-list">
+			<img src = "img/panel/bx-bx-star.svg" alt="star"/>
+			<span class="panel-span">Weekly New Arrivals </span>
+		</div>
+		<div class="panel-list">
+			<img src = "img/panel/mdi-truck-delivery-outline.svg" alt="truct"/>
+			<span class="panel-span"> Free Shipping On Orders Over $100 </span>
+		</div>
+		<div class="panel-list">
+			<img src = "img/panel/bx-bx-map-pin.svg" alt="Crown"/>
+			<span class="panel-span"> Track Your Order </span>
+		</div>
+		<div class="panel-list">
+			<img src = "img/panel/bx-bx-purchase-tag.svg" alt="Crown"/>
+			<span class="panel-span"> 10% Off On Your First Order! </span>
+		</div>
+	</div>
+
+    <div class="item-list-container">
+        <h1>Shopping Bag <span id="shoppingbag"></span> </h1>
+        <div class="d-flex">
+            <div class="" style="width: 65%;margin-right: 20px;">
+                <div>
+                    <span class="bolder">ITEM</span>
+                    <span class="bolder" style="float:right">PRICE</span>
+                </div>
+
+                <div id="item-container">
+                    
+                </div>
+            </div>
+            <div style="width: 35%;">
+                <div class="bolder" style="text-align: center;">
+                    ORDER SUMMARY
+                </div>
+                <hr>
+                <div class="order-summary-box">
+                    <div>Subtotal  <span id="subtotal"></span>   </div> 
+                    <div>Free Shipping  <span>$0</span> </div> 
+                    <hr>
+                    <div class="bolder">Estimated total <span id="estimatedtotal"></span> </div>
+                </div>
+                <div>
+                    <button class="checkout-btn" onclick="checkout()">CHECKOUT</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer"></footer>
+
+
+</body>
+
+<script src="js/sweetalert.min.js"></script>
+<script src="js/GlobalFunctions.js"></script>
+<script src="js/ShoppingCartPage.js"></script>
+
+</html>
